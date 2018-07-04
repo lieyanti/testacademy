@@ -15,6 +15,8 @@
 		88832C9920ECAD75006CE96B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88832C9720ECAD75006CE96B /* LaunchScreen.storyboard */; };
 		88832CA420ECAD76006CE96B /* GITcollabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88832CA320ECAD76006CE96B /* GITcollabTests.swift */; };
 		88832CAF20ECAD76006CE96B /* GITcollabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88832CAE20ECAD76006CE96B /* GITcollabUITests.swift */; };
+		88832CBE20ECC0CE006CE96B /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88832CBC20ECC0CE006CE96B /* Register.swift */; };
+		88832CBF20ECC0CE006CE96B /* Register.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88832CBD20ECC0CE006CE96B /* Register.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		88832CAA20ECAD76006CE96B /* GITcollabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GITcollabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88832CAE20ECAD76006CE96B /* GITcollabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GITcollabUITests.swift; sourceTree = "<group>"; };
 		88832CB020ECAD76006CE96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88832CBC20ECC0CE006CE96B /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		88832CBD20ECC0CE006CE96B /* Register.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Register.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				88832C8B20ECAD75006CE96B /* AppDelegate.swift */,
 				88832C8D20ECAD75006CE96B /* ViewController.swift */,
+				88832CBC20ECC0CE006CE96B /* Register.swift */,
+				88832CBD20ECC0CE006CE96B /* Register.xib */,
 				88832C8F20ECAD75006CE96B /* Main.storyboard */,
 				88832C9520ECAD75006CE96B /* Assets.xcassets */,
 				88832C9720ECAD75006CE96B /* LaunchScreen.storyboard */,
@@ -234,6 +240,7 @@
 			files = (
 				88832C9920ECAD75006CE96B /* LaunchScreen.storyboard in Resources */,
 				88832C9620ECAD75006CE96B /* Assets.xcassets in Resources */,
+				88832CBF20ECC0CE006CE96B /* Register.xib in Resources */,
 				88832C9120ECAD75006CE96B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				88832C8E20ECAD75006CE96B /* ViewController.swift in Sources */,
 				88832C8C20ECAD75006CE96B /* AppDelegate.swift in Sources */,
+				88832CBE20ECC0CE006CE96B /* Register.swift in Sources */,
 				88832C9420ECAD75006CE96B /* GITcollab.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
